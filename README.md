@@ -25,6 +25,3 @@ And add it to your TSConfig:
 - [`tsconfig.dom.json`](https://github.com/socnik/vite-tsconfig/blob/main/tsconfig.dom.json) - TSConfig optimized for DOM
 - [`tsconfig.vue.json`](https://github.com/socnik/vite-tsconfig/blob/main/tsconfig.vue.json) - TSConfig optimized for DOM+Vue
 
----
-
-_Thanks [Devicons](https://github.com/devicons/devicon) for nice icons_
