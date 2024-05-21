@@ -1,0 +1,34 @@
+{
+  "name": "@socnik/vite-tsconfig",
+  "version": "0.0.0",
+  "description": "Base TypeScript Config for Vite projects",
+  "author": "Nikita",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "main": "",
+  "files": [
+    "LICENSE",
+    "configs"
+  ],
+  "keywords": ["typescript"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socnik/vite-tsconfig"
+  },
+  "homepage": "https://github.com/socnik/vite-tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/socnik/vite-tsconfig/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "prettier": "@socnik/my-prettier-config",
+  "packageManager": "pnpm@9.0.4",
+  "devDependencies": {
+    "@socnik/my-prettier-config": "^1.0.3",
+    "prettier": "^3.2.5"
+  }
+}
