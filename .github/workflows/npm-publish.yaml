@@ -1,0 +1,21 @@
+name: Publish to NPM
+on:
+  release:
+    types:
+      - released
+      - prereleased
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout
+
+      - name: Setup Pnpm
+        uses: pnpm/action-setup
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Publish
+        run: pnpm publish --tag latest
