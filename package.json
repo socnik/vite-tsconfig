@@ -1,6 +1,6 @@
 {
   "name": "@socnik/vite-tsconfig",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Base TypeScript Config for Vite projects",
   "author": "Nikita",
   "license": "MIT",
