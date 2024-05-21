@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    // Module
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "resolveJsonModule": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // Emitting
+    "noEmit": true,
+
+    // Vite-specific options
+
+    // https://vitejs.dev/guide/features.html#usedefineforclassfields
+    "useDefineForClassFields": true,
+
+    // https://vitejs.dev/guide/features.html#isolatedmodules
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    // Type-checking
+
+    "strict": true,
+    "skipLibCheck": true,
+
+    // Reset types
+
+    "types": [],
+    "lib": ["ESNext"]
+  }
+}

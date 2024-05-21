@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "./tsconfig.dom.json",
+  "compilerOptions": {
+    // Vue JSX
+    // Copied from official recommended Vue TSConfig
+    // https://github.com/vuejs/tsconfig/blob/22e15e3947c8ce1d9c5992229da0351c464fb9e8/tsconfig.json#L34-L36
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
+  }
+}

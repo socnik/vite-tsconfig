@@ -7,12 +7,16 @@
   "scripts": {
     "format": "prettier --write ."
   },
-  "main": "",
+  "main": "tsconfig.json",
   "files": [
     "LICENSE",
-    "configs"
+    "tsconfig.json",
+    "tsconfig.dom.json",
+    "tsconfig.vue.json"
   ],
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/socnik/vite-tsconfig"
