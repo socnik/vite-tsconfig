@@ -1,6 +1,6 @@
 {
   "name": "@socnik/vite-tsconfig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Base TypeScript Config for Vite projects",
   "author": "Nikita",
   "license": "MIT",
@@ -31,6 +31,9 @@
   "type": "module",
   "prettier": "@socnik/my-prettier-config",
   "packageManager": "pnpm@9.0.4",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@socnik/my-prettier-config": "^1.0.3",
     "prettier": "^3.2.5"
