@@ -31,6 +31,9 @@
     // Reset types
 
     "types": [],
-    "lib": ["ESNext"]
+
+    // ES2020 (ES11) recommended by official config
+    // https://github.com/vuejs/tsconfig/blob/22e15e3947c8ce1d9c5992229da0351c464fb9e8/tsconfig.dom.json#L5-L11
+    "lib": ["ES2020"]
   }
 }
